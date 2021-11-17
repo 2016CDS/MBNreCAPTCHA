@@ -4,7 +4,12 @@
 // ------------------------------------------
 // captchaScale = containerWidth / elementWidth
 
-function scaleCaptcha(elementWidth) {
+$(document).ready(function () {
+  
+	
+	
+	
+	function scaleCaptcha(elementWidth) {
   // Width of the reCAPTCHA element, in pixels
   var reCaptchaWidth = 304;
   // Get the containing element's width
@@ -32,3 +37,11 @@ $(function() {
   $(window).resize( $.throttle( 100, scaleCaptcha ) );
   
 });
+
+	
+	
+	
+	
+});
+
+
