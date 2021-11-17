@@ -4,7 +4,7 @@
 // ------------------------------------------
 // captchaScale = containerWidth / elementWidth
 
-jQuery(document).ready(function($){
+(function(){
   
 	window.onload = function() {
 	
