@@ -37,11 +37,8 @@ $(function() {
   $(window).resize( $.throttle( 100, scaleCaptcha ) );
   
 });
+}		
 
-}	
-	
-	
-	
 });
 
 
