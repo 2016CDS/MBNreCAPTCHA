@@ -1,25 +1,3 @@
-// Essential Keys for the reCaptcha integration
-
-// 6LcJJy4dAAAAAIN2Kp3gmNYBlFyKjvIbI094mbeQ
-// 6LcJJy4dAAAAAKVb6lBVyeyXyNEtyX1PfAS7ET3u
-// 
-
-jQuery(document).ready(function($){
-
-	var api_site_key = '6LcJJy4dAAAAAIN2Kp3gmNYBlFyKjvIbI094mbeQ';
-	var api_secrete_key = '6LcJJy4dAAAAAKVb6lBVyeyXyNEtyX1PfAS7ET3u';
-	
-	console.log(api_site_key);
-	console.log(api_secrete_key);
-	grecaptcha.ready(function (){
-		
-	});// render the captcha code 
-	
-});
-
-
-
-
 // Resize reCAPTCHA to fit width of container
 // Since it has a fixed width, we're scaling
 // using CSS3 transforms
